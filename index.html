@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main>
+    <section class="calc">
+      <form class="calc__display">
+        <input type="text" class="display" readonly>
+      </form>
+      <div class="calc__row">
+        <button type="button" class="calc__row__buttons alt-buttons" id="clear"><span>AC</span></button>
+        <button type="button" class="calc__row__buttons alt-buttons" id="sign">+/-</button>
+        <button type="button" class="calc__row__buttons alt-buttons" id="percent">%</button>
+        <button type="button" class="calc__row__buttons operator">÷</button>
+      </div>
+      <div class="calc__row">
+        <button type="button" class="calc__row__buttons numbers">7</button>
+        <button type="button" class="calc__row__buttons numbers">8</button>
+        <button type="button" class="calc__row__buttons numbers">9</button>
+        <button type="button" class="calc__row__buttons operator">x</button>
+      </div>
+      <div class="calc__row">
+        <button type="button" class="calc__row__buttons numbers">4</button>
+        <button type="button" class="calc__row__buttons numbers">5</button>
+        <button type="button" class="calc__row__buttons numbers">6</button>
+        <button type="button" class="calc__row__buttons operator">-</button>
+      </div>
+      <div class="calc__row">
+        <button type="button" class="calc__row__buttons numbers">1</button>
+        <button type="button" class="calc__row__buttons numbers">2</button>
+        <button type="button" class="calc__row__buttons numbers">3</button>
+        <button type="button" class="calc__row__buttons operator">+</button>
+      </div>
+      <div class="calc__row">
+        <button type="button" class="calc__row__buttons numbers" id="zero__btn">0</button>
+        <button type="button" class="calc__row__buttons numbers">.</button>
+        <button type="button" class="calc__row__buttons operator" id="equal">=</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
